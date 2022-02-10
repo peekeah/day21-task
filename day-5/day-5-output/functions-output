@@ -1,0 +1,265 @@
+1. Write a function called “addFive”. Given a number, “addFive” returns 5 added to that number.
+ Input: addFive(10);
+ Output: 15
+
+2. Write a function called “getOpposite”. Given a number, return its opposite
+Input:getOpposite("5a");
+Output: -1
+
+3. Fill in your code that takes an number minutes and converts it to seconds.
+Input:toSeconds(5);
+Output: 300
+
+4. Create a function that takes a string and returns it as an integer.
+Input:toInteger("5")
+Output: 5
+
+5. Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+Input:nextNum(10);
+Output: 11
+
+6. Create a function that takes an array and returns the first element.
+Input:getFirstElement([-20,12,-15]);
+Output: -20
+
+7. Find the Perimeter of a Rectangle. Create a function that takes height and width and finds the perimeter of a rectangle.
+Input:findPerimeter(6, 7);
+Output: 26
+
+8. Less Than 100?. Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+Input:  lessThan100(10,50);
+        lessThan100(100,50);
+Output: true
+        false
+
+9. There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+Input:  remainder(-9, 45)
+        remainder(5, 5)
+Output: -9
+        0
+
+10. Old macdonald had a farm:
+Input: CountAnimals(1,2,3);
+Output: 22
+
+11. Frames Per Second
+Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
+Input: frames(1, 2);
+Output: 120
+ 
+12. Check if an Integer is Divisible By Five
+Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
+Input: divisibleByFive(5);
+Output: true
+
+13. Write a function called “isEven”.
+Given a number, “isEven” returns whether it is even.
+
+Input:
+isEven(12);
+isEven(0);
+isEven(11);
+isEven(“11h”);
+
+Output:
+true
+true
+false
+-1
+
+14. Write a function called “areBothOdd”.
+    Given 2 numbers, “areBothOdd” returns whether or not both of the given numbers are odd.
+
+Input:
+areBothOdd(1, 3);
+areBothOdd(1, 4);
+areBothOdd(2, 3);
+areBothOdd(0, 0);
+
+Output:
+true
+false
+false
+false
+
+15. Write a function called “getFullName”.
+Given a first and a last name, “getFullName” returns a single string with the given first and last names separated by a single space.
+Input:  getFullName("GUVI","GEEK");
+        getFullName("GUVI", );
+        getFullName("", "");
+Output: "GUVI GEEK"
+        "GUVI"
+        ""
+
+16. Write a function called “getLengthOfWord”.
+Given a word, “getLengthOfWord” returns the length of the given word.
+Input:
+getLengthOfWord(“GUVI”);
+getLengthOfWord();
+getLengthOfWord(9);
+
+Output:
+4
+-1
+-1
+
+17. Write a function called “isSameLength”.
+Given two words, “isSameLength” returns whether the given words have the same length.
+Input:isSameLength(“GUVI”, “GEEK”);
+Output:true
+
+18. Create a function to calculate the distance between two points defined by their x, y coordinates
+Input:getDistance(-1,0,2,7)
+Output:7.615773105863909
+
+19. Write a function called “getNthElement”.
+Given an array and an integer, “getNthElement” returns the element at the given integer, within the given array. If the array has a length of 0, it should return ‘undefined’.
+
+Input: getNthElement([1, 3, 5], 2);
+Output: 5
+
+20. Write a function called “getLastElement”.
+Given an array, “getLastElement” returns the last element of the given array. If the given array has a length of 0, it should return ‘-1’.
+
+Input: getLastElement([4,8,3,2])
+Output: 2
+
+21. Write a function called “getProperty”.
+Given an object and a key, “getProperty” returns the value of the property at the given key. If there is no property at the given key, it should return undefined.
+Input:  getProperty(obj,'mykey')
+        getProperty(obj,'dummykey')
+Output: value
+        NA
+
+22. Write a function called “addProperty”.
+Given an object and a key, “addProperty” adds a new property on the given object with a value of true.
+Input:  addProperty(obj, "mykey");
+Output: { mykey: 'true' }
+
+23. Write a function called “removeProperty”.
+Given an object and a key, “removeProperty” removes the given key from the given object.
+Input:  removeProperty(obj, "name");
+Output: undefined
+
+24. Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers.
+        Input:  ar2(arr)
+                arr=[-5, 10, -3, 12, -9, 5, 90, 0, 1];
+        Output: [ 5, -17, -5, 10, -3, 12,  -9,  5, 90,  0, 1]
+
+25. Create a function that receives an array of numbers and returns an array containing only the positive numbers
+        Input:  getPositives(ar)
+                let ar=[-5, 10, -3, -12, -9, 5, 90, 0, 1];
+        Output: [ 10, 5, 90, 1 ]
+
+26. Write a function `powersOfTwo` which will return list of all powers of 2 from 0 to n (where n is an exponent).
+Input:
+powersOfTwo(0)
+powersOfTwo(1)
+powersOfTwo(2)
+Output:
+1
+1,2
+1,2,4
+
+27. Find the maximum number in an array of numbers    
+        Input:  var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+                var max = findMax(ar);
+
+        Output:90
+
+28. Find the maximum number in an array of numbers    
+Input:  printPrimes(100);
+ 
+Output: 0  -> 2
+        1  -> 3
+        2  -> 5
+        3  -> 7
+        4  -> 11
+        5  -> 13
+        6  -> 17
+        7  -> 19
+        8  -> 23
+        9  -> 29
+        10  -> 31
+        11  -> 37
+        12  -> 41
+        13  -> 43
+        14  -> 47
+        15  -> 53
+        16  -> 59
+        17  -> 61
+        18  -> 67
+        19  -> 71
+        20  -> 73
+        21  -> 79
+        22  -> 83
+        23  -> 89
+        24  -> 97
+        25  -> 101
+        26  -> 103
+        27  -> 107
+        28  -> 109
+        29  -> 113
+        30  -> 127
+        31  -> 131
+        32  -> 137
+        33  -> 139
+        34  -> 149
+        35  -> 151
+        36  -> 157
+        37  -> 163
+        38  -> 167
+        39  -> 173
+        40  -> 179
+        41  -> 181
+        42  -> 191
+        43  -> 193
+        44  -> 197
+        45  -> 199
+        46  -> 211
+        47  -> 223
+        48  -> 227
+        49  -> 229
+        50  -> 233
+        51  -> 239
+        52  -> 241
+        53  -> 251
+        54  -> 257
+        55  -> 263
+        56  -> 269
+        57  -> 271
+        58  -> 277
+        59  -> 281
+        60  -> 283
+        61  -> 293
+        62  -> 307
+        63  -> 311
+        64  -> 313
+        65  -> 317
+        66  -> 331
+        67  -> 337
+        68  -> 347
+        95  -> 503
+        96  -> 509
+        97  -> 521
+        98  -> 523
+        99  -> 541
+
+29. Create a function that will return in an array the first “nPrimes” prime numbers greater than a particular number “startAt”
+Input:getPrimes(10,100)
+Output:[547, 557, 563, 569, 571, 577, 587, 593, 599, 601]
+
+
+30. Reverse a string
+Input: reverseString("JavaScript");
+Output: tpircSavaJ
+
+31. Create a function that will merge two arrays and return the result as a new array
+        Input:  var ar1=[1, 2, 3];
+                var ar2=[4, 5, 6];
+                mergeArrays(ar1, ar2)
+        Output: [ 1, 2, 3, 4, 5, 6 ]
+
+32. Calculate the sum of numbers received in a comma delimited string
+Input: sumCSV("1.5, 2.3, 3.1, 4, 5.5, 6, 7, 8, 9,10.9")
+Output: 55

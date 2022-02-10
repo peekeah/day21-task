@@ -1,0 +1,22 @@
+Arrow Function Output
+a. Print odd numbers in an array
+Input:  printOddNumber([2,5,66,33,32,12,55,11]);
+Output: 5 33 55 11
+
+b. Convert all the strings to title caps in a string array
+Input:  toUppercase("pranay");
+Output: PRANAY
+
+c. Sum of all numbers in an array
+Input:  sumOfArray([24,2,4,66,30,12,5,11]);
+Output: 154
+
+d. Return all the prime numbers in an array
+Input:  isPrime([1,2,3,4,5,6,7,8,9,10])
+Output: 2 3 5 7
+
+e. Return all the palindromes in an array
+Input:  returnPalindromes("bacaaba");
+        returnPalindromes("abaab");
+Output: aca aa aba
+        aba baab aa

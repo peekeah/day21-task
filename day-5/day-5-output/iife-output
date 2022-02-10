@@ -1,0 +1,31 @@
+a. Print odd numbers in an array
+Input:  [2,4,3,6,7,9,1,4]
+Output: 3 7 9 1
+
+b. Convert all the strings to title caps in a string array
+Input:  "LuciFer"
+Output: LUCIFER
+
+c. Sum of all numbers in an array
+Input:  [6,24,7,2,4,12,10])
+Output: 65
+
+d. Return all the prime numbers in an array
+Input:  [5,6,7,3,10,6,24,30]
+Output: 5 7 3
+
+e. Return all the palindromes in an array
+Input:  "ababcaba"
+Output: aba bab aba
+
+f. Return median of two sorted arrays of same size
+Input:  [2,26,46,48],[11,25,35,46]
+Output: 30.5
+
+g. Remove duplicates from an array
+Input:  [4,3,5,6,5,6,7,3]
+Output: [ 4, 3, 5, 6, 7 ]
+
+h. Rotate an array by k times
+Input:  [2,4,6,4,3], 2
+Output: [ 6, 4, 3, 2, 4 ]
